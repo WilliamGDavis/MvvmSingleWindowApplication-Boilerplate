@@ -20,28 +20,23 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
         }
         #endregion Singleton
 
-        #region Methods
-        UserControl _currentView;
-        UserControl _pageOneView;
-        UserControl _pageTwoView;
-        Dictionary<string, UserControl> _views;
-        #endregion Methods
-
-        #region Properties
-        public Dictionary<string, UserControl> Views
+        #region Properties and Members
+        private Dictionary<string, UserControl> _views;
+        private Dictionary<string, UserControl> Views
         {
             get
             {
                 if (_views == null)
                     _views = new Dictionary<string, UserControl>()
                     {
-                        { "PageOneView", Instance._pageOneView },
+                        { "PageOneView", Instance.PageOneView },
                         { "PageTwoView", Instance.PageTwoView }
                     };
                 return _views;
             }
         }
-        
+
+        private UserControl _currentView;
         public UserControl CurrentView
         {
             get
@@ -58,6 +53,7 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
             }
         }
 
+        private UserControl _pageOneView;
         private UserControl PageOneView
         {
             get
@@ -68,6 +64,7 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
             }
         }
 
+        private UserControl _pageTwoView;
         private UserControl PageTwoView
         {
             get
@@ -77,7 +74,7 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
                 return _pageTwoView;
             }
         }
-        #endregion Properties
+        #endregion Properties and Members
 
         #region Methods
         /// <summary>
