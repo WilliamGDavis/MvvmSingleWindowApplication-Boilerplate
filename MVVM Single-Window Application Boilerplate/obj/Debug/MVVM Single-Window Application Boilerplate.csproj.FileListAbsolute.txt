@@ -17,3 +17,22 @@ C:\Users\Owner\Source\Repos\PiClock\MVVM Single-Window Application Boilerplate\M
 C:\Users\Owner\Source\Repos\PiClock\MVVM Single-Window Application Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.exe
 C:\Users\Owner\Source\Repos\PiClock\MVVM Single-Window Application Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.pdb
 C:\Users\Owner\Source\Repos\PiClock\MVVM Single-Window Application Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\bin\Debug\MVVM Single-Window Application Boilerplate.exe.config
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.exe
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.pdb
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\bin\Debug\MVVM Single-Window Application Boilerplate.exe
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\bin\Debug\MVVM Single-Window Application Boilerplate.pdb
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\Views\PageOneView.g.cs
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\Views\PageTwoView.g.cs
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\App.g.cs
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate_MarkupCompile.cache
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate_MarkupCompile.lref
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MainWindow.baml
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\Views\PageOneView.baml
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\Views\PageTwoView.baml
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.g.resources
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM_Single_Window_Application_Boilerplate.Properties.Resources.resources
+C:\Users\Owner\Documents\GitHub\MvvmSingleWindowApplication-Boilerplate\MVVM Single-Window Application Boilerplate\obj\Debug\MVVM Single-Window Application Boilerplate.csproj.GenerateResource.Cache

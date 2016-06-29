@@ -12,15 +12,15 @@ namespace MVVM_Single_Window_Application_Boilerplate.ViewModels
             get
             {
                 if (_updateControl == null)
-                    _updateControl = new RelayCommand(param => UpdateControlExecute(), param => CanUpdateControlExecute()); //Pass the "CommandParameter" from the XAML view
+                    _updateControl = new RelayCommand(param => UpdateControlExecute(param), param => CanUpdateControlExecute()); //Pass the "CommandParameter" from the XAML view
 
                 return _updateControl;
             }
         }
 
-        void UpdateControlExecute()
+        void UpdateControlExecute(object param)
         {
-            PageSwitcher.Instance.CurrentView = PageSwitcher.Instance.PageTwoView;
+            PageSwitcher.Instance.ChangeView(param);
         }
 
         bool CanUpdateControlExecute()

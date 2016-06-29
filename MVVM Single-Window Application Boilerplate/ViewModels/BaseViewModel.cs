@@ -11,6 +11,8 @@ namespace MVVM_Single_Window_Application_Boilerplate.ViewModels
             get { return PageSwitcher.Instance; }
         }
 
+        
+
         #region INPC Members
         public event PropertyChangedEventHandler PropertyChanged;
         #endregion

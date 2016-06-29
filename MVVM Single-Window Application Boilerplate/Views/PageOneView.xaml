@@ -14,8 +14,16 @@
 
     <DockPanel>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label x:Name="label" Content="View 1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center"/>
-            <Button x:Name="button" Content="GoTo Page Two" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="122" Command="{Binding UpdateControl}"/>
+            <Label x:Name="label" 
+                   Content="View 1" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   />
+            <Button x:Name="button" 
+                    Content="GoTo Page Two" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Width="122" 
+                    Command="{Binding UpdateControl}" CommandParameter="PageTwoView"
+                    />
         </StackPanel>
     </DockPanel>
 </UserControl>
