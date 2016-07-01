@@ -12,11 +12,23 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
     class PageSwitcher : BaseViewModel
     {
         #region Singleton
-        private static PageSwitcher _instance;
+        private static volatile PageSwitcher _instance;
+        private static object syncRoot = new object();
         private PageSwitcher() { }
         public static PageSwitcher Instance
         {
-            get { return _instance ?? (_instance = new PageSwitcher()); }
+            get
+            {
+                if (_instance == null)
+                {
+                    lock (syncRoot)
+                    {
+                        if (_instance == null)
+                            _instance = new PageSwitcher();
+                    }
+                }
+                return _instance;
+            }
         }
         #endregion Singleton
 
@@ -54,7 +66,7 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
         }
 
         private UserControl _pageOneView;
-        private UserControl PageOneView
+        public UserControl PageOneView
         {
             get
             {
@@ -65,7 +77,7 @@ namespace MVVM_Single_Window_Application_Boilerplate.Helpers
         }
 
         private UserControl _pageTwoView;
-        private UserControl PageTwoView
+        public UserControl PageTwoView
         {
             get
             {

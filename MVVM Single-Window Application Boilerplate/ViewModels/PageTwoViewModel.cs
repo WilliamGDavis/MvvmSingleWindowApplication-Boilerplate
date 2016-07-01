@@ -19,7 +19,9 @@ namespace MVVM_Single_Window_Application_Boilerplate.ViewModels
         }
 
         void UpdateControlExecute(object param)
-        { PageSwitcher.Instance.ChangeView(param); }
+        {
+            PageSwitcher.Instance.ChangeView(param);
+        }
 
         bool CanUpdateControlExecute()
         { return true; }

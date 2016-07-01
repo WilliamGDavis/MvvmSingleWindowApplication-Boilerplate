@@ -20,6 +20,6 @@
     </Window.DataContext>
 
     <DockPanel>
-        <ContentControl Content="{Binding PageSwitcher.CurrentView, UpdateSourceTrigger=PropertyChanged}"></ContentControl>
+        <ContentControl Content="{Binding Path=PageSwitcher.Instance.CurrentView, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" />
     </DockPanel>
 </Window>
